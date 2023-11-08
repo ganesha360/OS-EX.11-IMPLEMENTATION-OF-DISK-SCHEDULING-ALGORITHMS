@@ -1,10 +1,10 @@
 # OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS
 
 # FIRST COME FIRST SERVE
-# AIM: 
+## AIM: 
 To write a program for the first come first serve method of disc scheduling.
 
-# DESCRIPTION:
+## DESCRIPTION:
 Disk scheduling is schedule I/O requests arriving for the disk.
 
 It is important because: -
@@ -15,7 +15,7 @@ Two or more request may be far from each other so can result in greater disk hea
 
 FCFS is the simplest of all the Disk Scheduling Algorithms. In FCFS, the requests are addressed in the order they arrive in the disk queue.
 
-# PROGRAM:
+## PROGRAM:
 ```python
 
 #include <stdio.h>
@@ -40,22 +40,22 @@ return 0;
 }
 ```
 
-# OUTPUT:
+## OUTPUT:
 
 ![OS1](https://github.com/ganesha360/OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS/assets/120884552/76f0b2c9-3eb8-4368-9e16-814b698ca984)
 
 
-# RESULT:
+## RESULT:
 Thus the implementation of the program for first come first serve disc scheduling has been successfully executed.
 
-## SHORTEST SEEK TIME FIRST
-# AIM:
+# SHORTEST SEEK TIME FIRST
+## AIM:
 To write a program for the first come first serve method of disc scheduling.
-# DESCRIPTION:
+## DESCRIPTION:
 Shortest seek time first (SSTF) algorithm
 
 Shortest seek time first (SSTF) algorithm selects the disk I/O request which requires the least disk arm movement from its current position regardless of the direction. It reduces the total seek time as compared to FCFS.
-# PROGRAM:
+## PROGRAM:
 ```PYTHON
 #include<stdio.h>
 #include<stdlib.h>
@@ -91,18 +91,20 @@ return 0;
 }
 
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![OS2](https://github.com/ganesha360/OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS/assets/120884552/81b25b8f-1300-4bc3-b879-5225f3137728)
+## RESIULT:
+Thus the implementation of the program for first come first serve disc scheduling has been successfully executed.
 
-## SHORTEST SEEK TIME FIRST
-# AIM:
+# SHORTEST SEEK TIME FIRST
+## AIM:
 To write a program for the first come first serve method of disc scheduling.
-# DESCRIPTION:
+## DESCRIPTION:
 Shortest seek time first (SSTF) algorithm
 
 Shortest seek time first (SSTF) algorithm selects the disk I/O request which requires the least disk arm movement from its current position regardless of the direction. It reduces the total seek time as compared to FCFS.
-# PROGARM:
+## PROGARM:
 ```PYTHON
 #include<stdio.h>
 #include<stdlib.h>
@@ -138,20 +140,22 @@ return 0;
 }
 
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![OS3](https://github.com/ganesha360/OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS/assets/120884552/bfc5cd2b-3ecf-4d36-9b1f-16923608bf8d)
+## RESULT:
+Thus the implementation of the program for shortest seek time first disc scheduling has been successfully executed.
 
-## SCAN
-# AIM:
+# SCAN
+## AIM:
 To write a program for the first come first serve method of disc scheduling.
-# DESCRIPTION:
+## DESCRIPTION:
 SCAN
 
 It is also called as Elevator Algorithm. In this algorithm, the disk arm moves into a particular direction till the end, satisfying all the requests coming in its path, and then it turns backend moves in the reverse direction satisfying requests coming in its path.
 
 It works in the way an elevator works, elevator moves in a direction completely till the last floor of that direction and then turns back.
-# PROGRAM:
+## PROGRAM:
 ```python
 #include<stdio.h>
 #include<stdlib.h>
@@ -227,18 +231,20 @@ return 0;
 }
 
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![OS5](https://github.com/ganesha360/OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS/assets/120884552/b7a32d47-74be-4598-8ba5-d1a0ef825d67)
+# RESULT:
+Thus the implementation of the program for SCAN disc scheduling has been successfully executed.
 
-## LOOK
-# AIM:
+# LOOK
+## AIM:
 To write a program for the first come first serve method of disc scheduling.
-# DESCRIPTION:
+## DESCRIPTION:
 Look
 
 It is similar to the SCAN disk scheduling algorithm except for the difference that the disk arm in spite of going to the end of the disk goes only to the last request to be serviced in front of the head and then reverses its direction from there only. Thus, it prevents the extra delay which occurred due to unnecessary traversal to the end of the disk.
-# PROGRAM:
+## PROGRAM:
 ```PYTHON
 #include<stdio.h>
 #include<stdlib.h>
@@ -308,9 +314,11 @@ printf("Total head movement is %d",TotalHeadMoment);
 return 0;
 }
 ```
-# OUTPUT:
+## OUTPUT:
 
 ![OS4](https://github.com/ganesha360/OS-EX.11-IMPLEMENTATION-OF-DISK-SCHEDULING-ALGORITHMS/assets/120884552/e8bcd718-0642-4cf3-91ca-3349b4c50154)
+## RESULT:
+Thus the implementation of the program for LOOK disc scheduling has been successfully executed.
 
 
 
